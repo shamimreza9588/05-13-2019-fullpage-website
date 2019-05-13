@@ -1,0 +1,40 @@
+﻿/**
+navigation section one
+*/
+@media only screen and (max-width:610px){
+	section#sec_one nav ul.list_one li{
+	float:none;
+	background-color:#f00;
+}
+}
+/**
+section six grid responsive
+*/
+@media only screen and (max-width:610px){
+	#sec_six .grid-container_six {
+	display:grid;
+	grid-template-columns:1fr 1fr ;
+	grid-template-rows:250px 250px;
+	grid-gap:5px;
+}
+#sec_six .grid-container_six .grid-item.one {
+	background-image: url("../images/pic18.jpg");
+	padding:0px 20px;
+}
+#sec_six .grid-container_six .grid-item.two {
+	background-image: url("../images/pic19.jpg");
+	top:0px;
+	padding:0px 20px;
+}
+#sec_six .grid-container_six .grid-item.three {
+	background-image: url("../images/pic20.jpg");
+	top:0px;
+	padding:0px 20px;
+}
+#sec_six .grid-container_six .grid-item.four {
+	background-image: url("../images/pic21.jpg");
+	top:0px;
+	padding:0px 20px;
+}
+
+}
